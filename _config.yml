@@ -1,25 +1,35 @@
 # Site settings
-title: Klise Theme # site title
+title: Dani Blog # site title
 description: >- # site description
   He's writing in Bahasa about web technology and experience as a journal 
   for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
 lang: en-US # default lang
-timezone: Asia/Jakarta # set your timezone
+timezone: Buenos Aires/Argentina # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Jekyll Klisé # author name
+  name: Daniel De Campos # author name
   bio: >- # tell to the world
-    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
-    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
-  username: username # general username
-  github: github_username # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
-  email: your-email@email.com # email adress
+    Full stack web developer and a freelance system engineer, among many other things!
+  links:  
+      <a href="https://github.com/dani-geek" target="_blank">
+          <img src="https://img.shields.io/github/followers/dani-geek.svg?label=GitHub&amp;style=social" alt="GitHub">
+      </a>
+      <a href="https://twitter.com/daniel28dc" target="_blank">
+          <img src="https://img.shields.io/twitter/follow/daniel28dc?label=Twitter&amp;style=social" alt="Twitter">
+      </a>
+      <a href="https://www.linkedin.com/in/danieldcm" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&amp;logo=linkedin" alt="LinkedIn">
+      </a>
+    
+  username: danigeek # general username
+  github: dani-geek # github username
+  twitter: Daniel28Dc # twitter username
+  facebook: daniel28dc # facebook username
+  email: danieldc2809@gmail.com # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
@@ -60,7 +70,7 @@ jekyll_compose:
     description:
 
 # Homepage limit posts
-number_of_posts: 5
+number_of_posts: 3
 
 # Build settings
 # theme: klise

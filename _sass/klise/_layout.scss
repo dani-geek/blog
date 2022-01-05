@@ -88,12 +88,6 @@
       margin-right: 5px;
     }
 
-    &.rss {
-      position: relative;
-      bottom: -3px;
-      outline: none;
-    }
-
     @include media-query($on-mobile) {
       opacity: 0.8;
     }
@@ -190,8 +184,8 @@
   }
 
   .author-avatar {
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     user-select: none;
     background-color: $black;
@@ -209,6 +203,13 @@
 
   .author-bio {
     margin: 0 auto;
+    opacity: 0.9;
+    max-width: 393px;
+    line-height: 1.688;
+  }
+  .author-links {
+    
+    margin: 10px auto;
     opacity: 0.9;
     max-width: 393px;
     line-height: 1.688;
@@ -292,13 +293,6 @@
     }
   }
 
-  .footer_copyright {
-    font-size: $small-font-size - 1;
-    margin-top: 3px;
-    display: block;
-    color: $gray;
-    opacity: 0.8;
-  }
 }
 
 .not-found {
