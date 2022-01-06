@@ -15,8 +15,8 @@ author:
   bio: >- # tell to the world
     Full stack web developer and a freelance system engineer, among many other things!
   links:  
-      <a href="https://github.com/dani-geek" target="_blank">
-          <img src="https://img.shields.io/github/followers/dani-geek.svg?label=GitHub&amp;style=social" alt="GitHub">
+      <a href="https://github.com/eldanigeek" target="_blank">
+          <img src="https://img.shields.io/github/followers/eldanigeek.svg?label=GitHub&amp;style=social" alt="GitHub">
       </a>
       <a href="https://twitter.com/daniel28dc" target="_blank">
           <img src="https://img.shields.io/twitter/follow/daniel28dc?label=Twitter&amp;style=social" alt="Twitter">
@@ -26,8 +26,8 @@ author:
       </a>
     
   username: danigeek # general username
-  github: dani-geek # github username
-  twitter: Daniel28Dc # twitter username
+  github: eldanigeek # github username
+  twitter: daniel28dc # twitter username
   facebook: daniel28dc # facebook username
   email: danieldc2809@gmail.com # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar

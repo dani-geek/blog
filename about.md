@@ -1,18 +1,19 @@
 ---
-title: Colophon
+title: Hey Geeks 👋🏽
 permalink: /about/
 layout: page
 excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+Hi 👋🏽, I’m Daniel De Campos, a computer science profesional and a freelance software engineer. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in the experience, architecture, and code quality of the things I build.
 
-If you have a question about him or else, just send a letter to him.
+I worked at Buenos Aires City Government as an Full Stack Developer. I enjoy eating food, taking pics, and making some music. I loves to explore and learn new technologies but I often forgot things, that’s the reason why I’m doing the writing.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+If you have any questions, happy to answer! just drop me a mail or connect with me 👇🏽.
 
-**may u needs ✨**
-
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+<p align="center">
+<a href="https://github.com/eldanigeek" target="_blank"><img src="https://img.shields.io/github/followers/eldanigeek.svg?label=GitHub&amp;style=social" alt="GitHub"></a> 
+<a href="https://twitter.com/daniel28dc" target="_blank"><img src="https://img.shields.io/twitter/follow/daniel28dc?label=Twitter&amp;style=social" alt="Twitter"></a> 
+<a href="https://www.linkedin.com/in/danieldcm" target="_blank"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&amp;logo=linkedin" alt="LinkedIn"></a>
+</p>
