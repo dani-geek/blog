@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Cara ribet memperbarui forked repo
+title: The complicated way to update a forked repo
 date: 2021-01-29 01:00 +0700
 modified: 2021-03-07 16:49:47 +07:00
-description: Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
+description: There are two ways to update the forked repository using the web interface provided by github but it is complicated, or through the terminal which is even more complicated.
 tag:
   - tips
   - git
@@ -11,28 +11,28 @@ tag:
 image: /cara-memperbarui-fork-repository/repo.png
 ---
 
-Berawal dari saya pengen memperbarui repo yang tua dari suatu organisasi, niatnya pengen rumat ulang nih, ternyata dari orginal reponya ada update, sekalian buat artikel deh, lebih kurang gambaranya seperti ini.
+It all started when I wanted to update an old repo from an organization, the intention was to rework it, it turned out that from the original repo there was an update, as well as making an article deh, more or less the picture is like this.
 
 <figure>
 <img src="{{ page.image }}" alt="ilustrasi repo yang mau diupdate">
-<figcaption>Fig 1. Gambaran ribetnya.</figcaption>
+<figcaption>Fig 1. A picture of the complexity.</figcaption>
 </figure>
 
-Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
+There are two ways to update the forked repository using the web interface provided by github but it is complicated, or through the terminal which is even more complicated.
 
-### Melalui Github (boring way) 💻
+### Through Github (boring way) 💻
 
-1. Buka repo yang hasil fork di Github.
-1. Klik **Pull Requests** di sebelah kanan, lalu **New Pull Request**.
-1. Akan memunculkan hasil compare antara repo upstream dengan repo kamu(forked repo), dan jika menyatakan "There isn’t anything to compare.", tekan link **switching the base**, yang mana sekarang repo kamu(forked repo) akan dibalik menjadi base repo dan repo upstream menjadi head repo.
-1. Tekan **Create Pull Request**, beri judul pull request, Tekan **Send Pull Request**.
-1. Tekan **Merge Pull Request** dan **Confirm Merge**.
+1. Open the forked repo on Github.
+1. Click **Pull Requests** on the right, then **New Pull Request**.
+1. It will bring up the result of the compare between the upstream repo and your repo (forked repo), and if it states "There isn't anything to compare.", press the **switching the base** link, which now your repo (forked repo) will be flipped to the base repo and the upstream repo to the head repo.
+1. Press **Create Pull Request**, give the pull request a title, Press **Send Pull Request**.
+1. Press **Merge Pull Request** and **Confirm Merge**.
 
-\* _pastikan kamu tidak merubah apapun pada forked repo, supaya melakukan merge secara otomatis, kalo tidak ya paling2 konflik._
+\* _make sure you don't change anything in the forked repo, so that it merges automatically, otherwise it's a conflict at best._
 
-### Melalui terminal ⌨️
+### Through terminal ⌨️
 
-Tambahkan remote alamat repository yang aslinya disini tak beri nama `upstream`., ganti `ORIGINAL_OWNER` dan `ORIGINAL_REPO` dengan alamat repo aslimu.
+Add the original remote repository address here not named `upstream`, replace `ORIGINAL_OWNER` and `ORIGINAL_REPO` with your original repo address.
 
 ```bash
 $ git add remote upstream git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git
@@ -43,27 +43,27 @@ $ git remote -v
 > upstream    git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (push) # upstream repo / original repo
 ```
 
-Checkout ke local branch `master`.
+Checkout to local branch `master`.
 
 ```bash
 $ git checkout master
 > Switched to branch 'master'
 ```
 
-Jika sudah, Merge local repo dengan remote `upstream/master`.
+If so, Merge local repo with remote `upstream/master`.
 
 ```bash
 $ git merge upstream/master
 ```
 
-Terakhir push local repo ke remote `origin`.
+Finally push the local repo to the remote `origin`.
 
 ```bash
 $ git add -A
 $ git commit -m "updating origin repo" && git push -u origin master
 ```
 
-Selamat mencoba cara ribet ini, semoga bisa dipahami, saya sendiri lebih senang melalui terminal, klo ada yang ribet kenapa cari yang mudah.
+Good luck with this complicated method, hopefully it can be understood, I myself prefer to go through the terminal, if there is something complicated why look for something easy.
 
 ##### Resources
 
